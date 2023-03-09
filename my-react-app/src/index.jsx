@@ -1,16 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { MindAR } from './main.js';
 import ExternalPage from './external-page/ExternalPage.jsx';
 
-const App = () => {
-    return (
-        <div>
-            <h1>Hello, World!</h1>
-            <ExternalPage />
-        </div>
-    );
-};
+function MyComponent() {
+    const ar = new MindAR();
 
-ReactDOM.render(<App />, document.getElementById('root'));
+    ar.start();
+}
 
-export default App;
+/*ReactDOM.render(
+    <React.StrictMode>
+        <h1>Hello, World!</h1>
+        <ExternalPage />
+    </React.StrictMode>,
+    document.getElementById('root')
+);*/
