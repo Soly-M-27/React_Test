@@ -2,6 +2,7 @@
   "name": "my-react-app",
   "version": "1.0.0",
   "scripts": {
+    "start": "vite",
     "dev": "vite"
   },
   "main": "index.js",
