@@ -1,0 +1,5 @@
+build/three.min.js filter=lfs diff=lfs merge=lfs -text
+build/three.module.js filter=lfs diff=lfs merge=lfs -text
+build/three.js filter=lfs diff=lfs merge=lfs -text
+examples/jsm filter=lfs diff=lfs merge=lfs -text
+examples/js filter=lfs diff=lfs merge=lfs -text

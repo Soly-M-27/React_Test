@@ -1,0 +1,14 @@
+model/age_gender_model-weights_manifest.json filter=lfs diff=lfs merge=lfs -text
+model/face_expression_model.bin filter=lfs diff=lfs merge=lfs -text
+model/face_expression_model-weights_manifest.json filter=lfs diff=lfs merge=lfs -text
+model/ssd_mobilenetv1_model.bin filter=lfs diff=lfs merge=lfs -text
+model/face_landmark_68_model-weights_manifest.json filter=lfs diff=lfs merge=lfs -text
+model/face_landmark_68_tiny_model.bin filter=lfs diff=lfs merge=lfs -text
+model/face_recognition_model-weights_manifest.json filter=lfs diff=lfs merge=lfs -text
+model/face_recognition_model.bin filter=lfs diff=lfs merge=lfs -text
+model/tiny_face_detector_model.bin filter=lfs diff=lfs merge=lfs -text
+model/age_gender_model.bin filter=lfs diff=lfs merge=lfs -text
+model/face_landmark_68_model.bin filter=lfs diff=lfs merge=lfs -text
+model/face_landmark_68_tiny_model-weights_manifest.json filter=lfs diff=lfs merge=lfs -text
+model/ssd_mobilenetv1_model-weights_manifest.json filter=lfs diff=lfs merge=lfs -text
+model/tiny_face_detector_model-weights_manifest.json filter=lfs diff=lfs merge=lfs -text

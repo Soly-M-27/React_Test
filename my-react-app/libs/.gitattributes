@@ -1,0 +1,6 @@
+mindar/mindar-face-aframe.prod.js filter=lfs diff=lfs merge=lfs -text
+mindar/mindar-face-three.prod.js filter=lfs diff=lfs merge=lfs -text
+mindar/mindar-face.prod.js filter=lfs diff=lfs merge=lfs -text
+mindar/mindar-image-aframe.prod.js filter=lfs diff=lfs merge=lfs -text
+mindar/mindar-image-three.prod.js filter=lfs diff=lfs merge=lfs -text
+mindar/mindar-image.prod.js filter=lfs diff=lfs merge=lfs -text
