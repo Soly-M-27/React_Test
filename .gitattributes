@@ -1,0 +1,15 @@
+my-react-app/assets/models/ filter=lfs diff=lfs merge=lfs -text
+my-react-app/assets/targets/ filter=lfs diff=lfs merge=lfs -text
+my-react-app/libs/faceapi filter=lfs diff=lfs merge=lfs -text
+my-react-app/libs/handpose filter=lfs diff=lfs merge=lfs -text
+my-react-app/libs/loader.js filter=lfs diff=lfs merge=lfs -text
+my-react-app/libs/mindar filter=lfs diff=lfs merge=lfs -text
+my-react-app/libs/three.js-r132 filter=lfs diff=lfs merge=lfs -text
+my-react-app/libs/camera-mock.js filter=lfs diff=lfs merge=lfs -text
+my-react-app/libs/chroma-video.js filter=lfs diff=lfs merge=lfs -text
+my-react-app/libs/faceapi/model filter=lfs diff=lfs merge=lfs -text
+my-react-app/libs/faceapi/face-api.esm.js filter=lfs diff=lfs merge=lfs -text
+my-react-app/libs/faceapi/face-api.js filter=lfs diff=lfs merge=lfs -text
+my-react-app/libs/handpose/fingerpose.js filter=lfs diff=lfs merge=lfs -text
+my-react-app/libs/three.js-r132/build filter=lfs diff=lfs merge=lfs -text
+my-react-app/libs/three.js-r132/examples filter=lfs diff=lfs merge=lfs -text
