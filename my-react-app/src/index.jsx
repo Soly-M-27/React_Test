@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MindAR from './public/main.js';
+import MindARThreeComponent from './public/main.jsx';
 
-function MyComponent() {
-    const ar = new MindAR();
-
-    ar.start();
-}
+ReactDOM.render(
+    <MindARThreeComponent />,
+    document.getElementById("root")
+);

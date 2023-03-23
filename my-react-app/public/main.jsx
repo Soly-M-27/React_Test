@@ -1,12 +1,16 @@
+import React, {Component} from 'react';
 import {loadGLTF} from "libs/loader.js";
 const THREE = window.MINDAR.IMAGE.THREE;
 
-document.addEventListener('DOMContentLoaded', () => {
-  const start = async() => {
+class MindARThreeComponent extends Component {
+  async componentDidMount() {
+    const { container } = this.props;
+
     const mindarThree = new window.MINDAR.IMAGE.MindARThree({
-      container: document.body,
+      container: container.current,
       imageTargetSrc: '/assets/targets/bee.mind',
     });
+
     const {renderer, scene, camera} = mindarThree;
 
     const light = new THREE.HemisphereLight( 0xffffff, 0xbbbbff, 1 );
@@ -24,8 +28,13 @@ document.addEventListener('DOMContentLoaded', () => {
       renderer.render(scene, camera);
     });
   }
-  start();
-  /*This JS script will serve to test the best formatting for .glb/.gltf 
-  3D assets for image targets. It will also check if .mind image targets 
-  track well.*/
-});
+
+  render() {
+    return (
+      <div ref={this.props.container}>
+      </div>
+    );
+  }
+}
+
+export default MindARThreeComponent;
