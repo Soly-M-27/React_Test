@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {loadGLTF} from "libs/loader.js";
+import {loadGLTF} from "../libs/loader.js";
 const THREE = window.MINDAR.IMAGE.THREE;
 
 class MindARThreeComponent extends Component {

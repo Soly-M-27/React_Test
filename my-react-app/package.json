@@ -2,8 +2,8 @@
   "name": "my-react-app",
   "version": "1.0.0",
   "scripts": {
-    "start": "vite",
-    "dev": "vite"
+    "dev": "vite",
+    "start": "vite"
   },
   "main": "index.js",
   "license": "MIT",
