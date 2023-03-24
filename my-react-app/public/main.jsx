@@ -8,7 +8,7 @@ class MindARThreeComponent extends Component {
 
     const mindarThree = new window.MINDAR.IMAGE.MindARThree({
       container: container.current,
-      imageTargetSrc: '/assets/targets/bee.mind',
+      imageTargetSrc: '../assets/targets/bee.mind',
     });
 
     const {renderer, scene, camera} = mindarThree;
@@ -16,7 +16,7 @@ class MindARThreeComponent extends Component {
     const light = new THREE.HemisphereLight( 0xffffff, 0xbbbbff, 1 );
     scene.add(light);
 
-    const ham = await loadGLTF('/assets/models/Bee.glb');
+    const ham = await loadGLTF('../assets/models/Bee.glb');
     ham.scene.scale.set(0.01, 0.01, 0.01);
     ham.scene.position.set(0, -0.4, 0);    
 
